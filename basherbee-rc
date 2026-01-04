@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# detag removes all cscope and ctags DB and input list files
+alias detag='rm -rf tags cscope.out ncscope.out ctags.files cscope.files .retag.files'
